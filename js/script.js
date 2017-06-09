@@ -18,16 +18,13 @@ $(document).ready(function() {
       }
       newerArray.push(newArray[indices]);
     }
+    $("#results").text("");
     for (var i = 0; i <= newArray.length - 1; i += 1) {
       printThis = "<li>" + newArray[i] + "</li>";
+
       $("#results").append(printThis);
 
     }
-
-
-
-
-
     alert(newArray);
 
   })
