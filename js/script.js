@@ -4,7 +4,7 @@ $(document).ready(function() {
     var number = parseInt($("input#userinput").val());
     var newArray = [];
     var newerArray = [];
-    var printThis="";
+    var printThis = "";
     for (var index = 1; index <= number; index += 1) {
       newArray.push(index)
     };
@@ -18,11 +18,11 @@ $(document).ready(function() {
       }
       newerArray.push(newArray[indices]);
     }
-   for(var i=0;i<=newArray.length-1;i+=1){
-     printThis="<li>"+newArray[i]+"</li>";
-     $("ul").append(printThis);
+    for (var i = 0; i <= newArray.length - 1; i += 1) {
+      printThis = "<li>" + newArray[i] + "</li>";
+      $("#results").append(printThis);
 
-   }
+    }
 
 
 
