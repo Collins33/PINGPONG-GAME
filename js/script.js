@@ -8,8 +8,9 @@ $(document).ready(function(){
     for (var index=1;index<=number;index+=1){
     newArray.push(index)};
     for(var indices=1;indices<=number;indices+=1){
-    if(newArray[indices]%3===0){newArray[indices]="ping"}
+    if(newArray[indices]%15===0){newArray[indices]="pingpong"}
     else if(newArray[indices]%5===0){newArray[indices]="pong"}
+    else if(newArray[indices]%3===0){newArray[indices]="ping"}
     newerArray.push(newArray[indices]);
     }
 

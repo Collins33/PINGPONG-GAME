@@ -5,5 +5,14 @@
 .bodyfont{
   font-family: 'Modak', cursive;
   font-size: 40px;
-  color: LightSeaGreen; 
+  color: LightSeaGreen;
+}
+.gamecolumn{
+  height: 700px;
+}
+#leftcolumn{
+
+}
+#header{
+  background-image: url();
 }
