@@ -1,8 +1,4 @@
 
-
-
-
-
 $(document).ready(function(){
   $("form#form").submit(function(event){
     event.preventDefault();
@@ -19,6 +15,6 @@ $(document).ready(function(){
 
     $("#results").text(number);
     alert(newArray);
-    
+
   })
 });
