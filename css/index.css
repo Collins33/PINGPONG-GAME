@@ -29,3 +29,6 @@ background-image: url("");
   font-size: 30px;
   color: grey;
 }
+.col-md-4{
+  align-items: center;
+}

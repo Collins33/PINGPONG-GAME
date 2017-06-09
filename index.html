@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/script.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Modak|Permanent+Marker" rel="stylesheet">
-    <title>PINGPONG</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row" id="header">
-        <div class="col-lg-12" id="mainsection">
-          <h1 id="heading">PINGPONG</h1>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Modak|Permanent+Marker" rel="stylesheet">
+  <title>PINGPONG</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row" id="header">
+      <div class="col-lg-12" id="mainsection">
+        <h1 id="heading">PINGPONG</h1>
       </div>
-      <div class="row" id="mainsection">
-        <div class="col-md-4" class="gamecolumn" id="leftcolumn">
-          <h1 class="lefttext">CREATED BY</h1>
-          <h2 class="lefttext">COLLINS NJAU</h2>
-          <h2 class="lefttext">GITHUB:COLLINS33</h2>
-          <h2 class="lefttext">collinsnjau39@gmail.com</h2>
-        </div>
-        <div class="col-md-4" class="gamecolumn">
+    </div>
+    <div class="row" id="mainsection">
+      <div class="col-md-4" class="gamecolumn" id="leftcolumn">
+        <h1 class="lefttext">CREATED BY</h1>
+        <h2 class="lefttext">COLLINS NJAU</h2>
+        <h2 class="lefttext">GITHUB:COLLINS33</h2>
+        <h2 class="lefttext">collinsnjau39@gmail.com</h2>
+      </div>
+      <div class="col-md-4" class="gamecolumn">
         <h2 class="bodyfont">LET'S PLAY A LITTLE GAME</h2>
         <p class="bodyfont">Here are the instructions:</p>
         <p class="bodyfont">Enter a number.It must be a number</p>
@@ -34,34 +36,27 @@
           <li class="bodyfont">if it is divisible by 5,it becomes "pong"</li>
           <li class="bodyfont">if it is divisible by both 3 and 5 it becomes"pingpong"</li>
         </ul>
-
-
         <form id="form">
           <div class="form-group">
-          <label for="number">
+            <label for="number">
             ENTER YOUR NUMBER TO PLAY THE GAME
           </label>
-          <input  placeholder="number" type="number" size="30px" id="userinput"/>
+            <input placeholder="number" type="number" size="30px" id="userinput" />
           </div>
-          <button type="submit" class="btn" display="inline" >SUBMIT</button>
-
+          <button type="submit" class="btn" display="inline">SUBMIT</button>
         </form>
-
+        <p>THE NUMBERS are</p>
+        <ul id="results"></ul>
       </div>
-
-
-
-
-
     </div>
     <div class="col-md-4" class="gamecolumn">
-      <p>THE NUMBERS are</p>
-      <ul id="results"></ul>
+      
     </div>
 
-    </div>
+  </div>
 
 
 
-  </body>
+</body>
+
 </html>
