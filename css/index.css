@@ -1,6 +1,8 @@
 #heading{
   font-family: 'Modak', cursive;
   font-size: 55px;
+  color: white
+
 }
 .bodyfont{
   font-family: 'Modak', cursive;
@@ -11,8 +13,19 @@
   height: 700px;
 }
 #leftcolumn{
-
+background-image: url("");
 }
 #header{
-  background-image: url();
+  background-image: url("https://wallpaperscraft.com/image/scheme_black_lines_95945_1920x1080.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#mainsection{
+  height: 250px;
+
+}
+.lefttext{
+  font-family: 'Modak', cursive;
+  font-size: 30px;
+  color: grey;
 }
