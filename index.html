@@ -6,14 +6,28 @@
     <link href="css/index.css" rel="stylesheet">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
     <title>PINGPONG</title>
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <h1>PINGPONG</h1>
+      <div class="row" id="header">
+        <h1 id="heading">PINGPONG</h1>
       </div>
-      <div class="row">
+      <div class="row" id="mainsection">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+        <h2>LET'S PLAY A LITTLE GAME</h2>
+        <p>Here are the instructions:</p>
+        <p>Enter a number.It must be a number</p>
+        <ul>
+          <li>it will count to the position of your number</li>
+          <li>if any number is divisible by 3, it becomes "ping"</li>
+          <li>if it is divisible by 5,it becomes "pong"</li>
+          <li>if it is divisible by both 3 and 5 it becomes"pingpong"</li>
+        </ul>
+
+
         <form id="form">
           <div class="form-group">
           <label for="number">
@@ -24,12 +38,15 @@
           <button type="submit" class="btn" display="inline" >SUBMIT</button>
 
         </form>
+          <p><span id="results"></span></p>
       </div>
-      <div class="row" >
-        <p><span id="results"></span></p>
 
 
-      </div>
+
+
+
+    </div>
+    <div class="col-md-4"></div>
 
     </div>
 
