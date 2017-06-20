@@ -21,11 +21,12 @@ $(document).ready(function() {
     $("#results").text("");
     for (var i = 0; i <= newArray.length - 1; i += 1) {
       printThis = "<li>" + newArray[i] + "</li>";
+      window.scrollTo( 0, 2000 );
 
       $("#results").append(printThis);
 
     }
-    
+
 
   })
 });
